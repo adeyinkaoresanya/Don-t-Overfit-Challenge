@@ -28,7 +28,7 @@ Since there were no variable names, much feature engineering could not be implem
 
 *	Out of seven models that were built, Logistic regression model had the best validation AUC score. Thus, this was further optimized through hyperparameter tuning to see if it would improve the score.
 
-![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/model_table.PNG "Models")
+![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/Models_table.PNG "Models")
 
 
 * Upon hyperparameter optimization, the validation AUC score improved to 0.788. Thus the model was retrained on the whole train set because of the small size.
