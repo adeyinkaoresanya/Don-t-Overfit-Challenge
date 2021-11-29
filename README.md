@@ -14,7 +14,7 @@ There are no available variable names, which constrained feature engineering.
 
  ![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/target.PNG "Distribution of the target variable")
 
-* Most of the features has weak linear correlation with the target feature. 
+* Most of the features have weak linear correlation with the target feature. 
 
 * There is no collinearity among the selected features.
 
