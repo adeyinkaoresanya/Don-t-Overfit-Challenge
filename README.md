@@ -31,6 +31,6 @@ Since there were no variable names, much feature engineering could not be implem
 ![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/model_table.PNG "Models")
 
 
-* Upon hyperparameter optimization, the validation score greatly improved. Thus the model was retrained on the whole train set because of the small size.
+* Upon hyperparameter optimization, the validation AUC score improved to 0.788. Thus the model was retrained on the whole train set because of the small size.
 
  * This led to public and private scores of 0.848 and 0.837 on Kaggle leaderboard, thus meeting the project requirement.
