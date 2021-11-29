@@ -30,6 +30,8 @@ Since there were no variable names, much feature engineering could not be implem
 
 ![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/Models_table.PNG "Models")
 
+* SelectFromModel was used for feature selection to see if the model would improve. This decreased the validation score to 0.718. Hence all the features were fed into the model.
+
 
 * Upon hyperparameter optimization, the validation AUC score improved to 0.788. Thus the model was retrained on the whole train set because of the small size.
 
