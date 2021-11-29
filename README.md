@@ -11,7 +11,7 @@ There aree no available variable names, which constrained feature engineering.
 * All of the variables are numeric and contain no missing values.
 
 * the target variable has two distinct classes that are imbalanced. Thus, this was treated as a classification task.
- ![alt text](https://github.com/adeyinkaoresanya/Ames-House_Price-Regression-Model/blob/main/images/Distribution%20of%20sale%20price.PNG "Distribution of sale price")
+ ![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/target.PNG "Distribution of the target variable")
 
 * Most of the features has weak linear correlation with the target feature. 
 * There is no collinearity among the selected features
@@ -24,6 +24,9 @@ Since there were no variable names, much feature engineering could not be implem
 ## Model Building and Evaluation
 
 *	Out of seven models that were built, Logistic regression model had the best validation AUC score. Thus, this was further optimized through hyperparameter tuning to see if it would improve the score.
+
+![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/model_table.PNG "Models")
+
 
 * Upon hyperparameter optimization, the validation score greatly improved. Thus the model was retrained on the whole train set because of the small size.
 
