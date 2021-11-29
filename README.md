@@ -5,16 +5,19 @@ The goal of this project is to build a model on a small dataset without overfitt
 # About the data
 The dataset, downloaded from [Kaggle](https://www.kaggle.com/sahiltinky/org-dataset-dont-overfitii), contain 302 variables and 250 observations in the train set, while the test set has 19750 observations with 301 variables Training on a small dataset with many feature is a perfect candidate for overfitting(curse of dimensionality!)
 
-There aree no available variable names, which constrained feature engineering.
+There are no available variable names, which constrained feature engineering.
 
 ## Exploratory Analysis
 * All of the variables are numeric and contain no missing values.
 
-* the target variable has two distinct classes that are imbalanced. Thus, this was treated as a classification task.
+* The target variable has two distinct classes that are imbalanced. Thus, this was treated as a classification task.
+
  ![alt text](https://github.com/adeyinkaoresanya/Don-t-Overfit-Challenge/blob/main/Images/target.PNG "Distribution of the target variable")
 
 * Most of the features has weak linear correlation with the target feature. 
-* There is no collinearity among the selected features
+
+* There is no collinearity among the selected features.
+
 * None of the features is skewed.
 
 ## Feature Engineering
